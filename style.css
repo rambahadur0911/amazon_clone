@@ -170,21 +170,21 @@ p{
 .all{
     margin-left: 0;
 }
-.panel{
+/* .panel{
     width: 100%;
     height: 300px;
     background-image: url("amazon bodypic.jpg");
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
-}
+} */
 .box1{
     height: 420px;
     width : 280px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 280px;
+    /* margin-top: 280px; */
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -237,7 +237,7 @@ p{
     background-color:white;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 280px;
+    /* margin-top: 280px; */
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -290,7 +290,7 @@ p{
     background-color:white;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 280px;
+    /* margin-top: 280px; */
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -343,7 +343,7 @@ p{
     background-color:white;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 280px;
+    /* margin-top: 280px; */
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -446,4 +446,77 @@ p{
 .hr{
     margin: 0;
     padding: 0;
+}
+
+.testimonial-section {
+
+    width: 100%;
+    height: 500px;
+
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+
+    url("https://images.unsplash.com/photo-1522199755839-a2bacb67c546");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-container {
+
+    width: 60%;
+
+    background-color: rgb(235, 198, 198);
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.user-img {
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 20px;
+}
+
+.message {
+
+    font-size: 22px;
+
+    color: #333;
+
+    margin-bottom: 15px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    width: 100%;
+    height: 10px;
 }
